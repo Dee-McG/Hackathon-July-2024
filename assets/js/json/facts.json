@@ -1,54 +1,64 @@
 {
     "facts": [
       {
-        "image": "assets/images/background.webp",
-        "name": "Same-Sex Marriage",
-        "fact": "The first country to legalize same-sex marriage was the Netherlands on April 1, 2001."
-      },
-      {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/stonewall-riots.webp",
         "name": "Stonewall Riots",
         "fact": "The Stonewall Riots, which began on June 28, 1969, were a pivotal event in the LGBTQ+ rights movement, sparking the modern LGBTQ+ rights movement."
       },
       {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/pride-month.webp",
         "name": "Pride Month",
         "fact": "Pride Month is celebrated every June to commemorate the Stonewall Riots and to celebrate LGBTQ+ history, culture, and achievements."
       },
       {
-        "image": "assets/images/background.webp",
-        "name": "The Trevor Project",
-        "fact": "Founded in 1998, The Trevor Project provides crisis intervention and suicide prevention services to LGBTQ+ youth."
+      "image": "assets/images/facts/gay-cure.webp",
+      "name": "Homosexuality Removed from DSM",
+      "fact": "December 15, 1973 - The American Psychiatric Association removed homosexuality from its Diagnostic and Statistical Manual of Mental Disorders (DSM)."
       },
       {
-        "image": "assets/images/background.webp",
-        "name": "PFLAG",
-        "fact": "PFLAG, established in 1973, is the first and largest organization for LGBTQ+ people, their parents and families, and allies."
-      },
-      {
-        "image": "assets/images/background.webp",
-        "name": "Human Rights Campaign (HRC)",
-        "fact": "Founded in 1980, the Human Rights Campaign is the largest LGBTQ+ advocacy group in the U.S., working for equal rights and social justice."
-      },
-      {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/glaad.webp",
         "name": "GLAAD",
         "fact": "GLAAD, originally founded as the Gay & Lesbian Alliance Against Defamation in 1985, works to promote fair and accurate representation of LGBTQ+ people in the media."
       },
       {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/legal-marriage.webp",
+        "name": "Obergefell v. Hodges",
+        "fact": "OnJune 26, 2015 the U.S. Supreme Court ruled that same-sex marriage is a constitutional right, legalizing it across all 50 states."
+      },
+      {
+        "image": "assets/images/facts/same-sex-marriage.webp",
+        "name": "Same-Sex Marriage",
+        "fact": "The first country to legalize same-sex marriage was the Netherlands on April 1, 2001."
+      },
+      {
+        "image": "assets/images/facts/lambda-legal.webp",
         "name": "Lambda Legal",
         "fact": "Lambda Legal, founded in 1973, is a national organization that fights for the civil rights of LGBTQ+ people and those living with HIV through litigation and advocacy."
       },
       {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/harvey-milk.webp",
+        "name": "Harvey Milk Elected",
+        "fact": "Harvey Milk was elected to the San Francisco Board of Supervisors, becoming one of the first openly gay elected officials in the U.S."
+      },
+      {
+        "image": "assets/images/facts/national-gay-task-force.webp",
         "name": "The National LGBTQ Task Force",
         "fact": "Established in 1973, the National LGBTQ Task Force advocates for LGBTQ+ rights and social justice through policy work, organizing, and activism."
       },
       {
-        "image": "assets/images/background.webp",
+        "image": "assets/images/facts/trans-day-rem.webp",
         "name": "Transgender Day of Remembrance (TDOR)",
         "fact": "Transgender Day of Remembrance is observed annually on November 20 to honor and remember those who have lost their lives due to anti-transgender violence."
+      },
+      {
+        "image": "assets/images/facts/the-trevor-project.webp",
+        "name": "The Trevor Project",
+        "fact": "Founded in 1998, The Trevor Project provides crisis intervention and suicide prevention services to LGBTQ+ youth."
+      },
+      {
+        "image": "assets/images/facts/barbie-laverne-cox.webp",
+        "name": "Laverne Cox Barbie Doll",
+        "fact": "March 2, 2016 - Mattel released a Barbie doll modeled after Laverne Cox, the first transgender Barbie doll, celebrating her contributions to the LGBTQ+ community."
       }
     ]
   }

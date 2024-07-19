@@ -6,6 +6,7 @@
 
   --box-shadow: 7px 10px 21px -6px rgba(0, 0, 0, 0.75);
   --card-border: 1px solid #505050;
+  --white-border: 1px solid #fff;
   --green-border: 3px solid #4cd964;
   --red-border: 3px solid #ff3b30;
 }
@@ -48,6 +49,16 @@ button {
   cursor: pointer;
 }
 
+header {
+  border-bottom: var(--white-border);
+}
+
+/* Generics */
+
+.text-center {
+  text-align: center;
+}
+
 /* Facts Page */
 
 #facts-list {
@@ -58,9 +69,14 @@ button {
 }
 
 #facts-list img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
   border-radius: 5px;
+}
+
+.fact-title {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
