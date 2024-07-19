@@ -129,3 +129,11 @@ header {
   color: var(--black);
   transform: rotateY(180deg);
 }
+
+.githublinks {
+  text-align: center; 
+  :hover {
+    fill:#79D5EF;
+  }
+  
+}
