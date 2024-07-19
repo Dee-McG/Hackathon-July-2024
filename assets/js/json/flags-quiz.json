@@ -1,10 +1,235 @@
 {
-    "flags": [
-      {
-        "question": "Which flag is the original Pride Flag?",
-        "answers": ["assets/images/flags/6-col-pride-flag.webp", "assets/images/flags/heterosexual-pride-flag.png", "assets/images/flags/demiboy-pride-flag.png", "assets/images/flags/gay-men-pride-flag.png"],
-        "correct": "assets/images/flags/6-col-pride-flag.webp",
-        "fact": "The Stonewall Riots, which began on June 28, 1969, were a pivotal event in the LGBTQ+ rights movement, sparking the modern LGBTQ+ rights movement."
-      }
-    ]
+  "flags": [
+    {
+      "question": "Which flag is the original Pride Flag?",
+      "answers": [
+        "assets/images/flags/6-col-pride-flag.png",
+        "assets/images/flags/heterosexual-pride-flag.png",
+        "assets/images/flags/demiboy-pride-flag.png",
+        "assets/images/flags/gay-men-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/6-col-pride-flag.png",
+      "fact": "The Stonewall Riots, which began on June 28, 1969, were a pivotal event in the LGBTQ+ rights movement, sparking the modern LGBTQ+ rights movement."
+    },
+    {
+      "question": "Which flag represents the Abrosexual community?",
+      "answers": [
+        "assets/images/flags/abrosexual-pride-flag.png",
+        "assets/images/flags/bigender-pride-flag.png",
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/lesbian-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/abrosexual-pride-flag.png",
+      "fact": "Abrosexuality refers to people whose sexual orientation changes over time."
+    },
+    {
+      "question": "Which flag represents the Asexual community?",
+      "answers": [
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/greysexual-pride-flag.png",
+        "assets/images/flags/gender-queer-pride-flag.png",
+        "assets/images/flags/pansexual-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/asexual-pride-flag.png",
+      "fact": "The black stripe represents asexuality, the gray stripe represents gray-asexuality and demisexuality, the white stripe represents allies, and the purple stripe represents community."
+    },
+    {
+      "question": "Which flag represents the Bigender community?",
+      "answers": [
+        "assets/images/flags/bigender-pride-flag.png",
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/demiboy-pride-flag.png",
+        "assets/images/flags/transgender-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/bigender-pride-flag.png",
+      "fact": "Bigender people have two gender identities, either simultaneously or switching between the two."
+    },
+    {
+      "question": "Which flag represents the Bisexual community?",
+      "answers": [
+        "assets/images/flags/bisexual-pride-flag.png",
+        "assets/images/flags/genderflux-pride-flag.png",
+        "assets/images/flags/intersex-pride-flag.png",
+        "assets/images/flags/straight-ally-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/bisexual-pride-flag.png",
+      "fact": "The pink, purple, and blue colors symbolize attraction to the same sex, both sexes, and the opposite sex, respectively."
+    },
+    {
+      "question": "Which flag represents the Demiboy community?",
+      "answers": [
+        "assets/images/flags/demiboy-pride-flag.png",
+        "assets/images/flags/bigender-pride-flag.png",
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/gender-queer-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/demiboy-pride-flag.png",
+      "fact": "Demiboy refers to someone who partially, but not wholly, identifies as a man or boy."
+    },
+    {
+      "question": "Which flag represents the Drag community?",
+      "answers": [
+        "assets/images/flags/drag-feather-pride-flag.png",
+        "assets/images/flags/transgender-pride-flag.png",
+        "assets/images/flags/pansexual-pride-flag.png",
+        "assets/images/flags/lesbian-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/drag-feather-pride-flag.png",
+      "fact": "The Drag Feather flag represents the drag community, celebrating the art and performance of drag."
+    },
+    {
+      "question": "Which flag represents Gay Men?",
+      "answers": [
+        "assets/images/flags/gay-men-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png",
+        "assets/images/flags/bisexual-pride-flag.png",
+        "assets/images/flags/gender-queer-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/gay-men-pride-flag.png",
+      "fact": "The Gay Men’s Pride Flag was created to provide a symbol specifically for gay men, separate from the general LGBTQ+ rainbow flag."
+    },
+    {
+      "question": "Which flag represents the Genderqueer community?",
+      "answers": [
+        "assets/images/flags/gender-queer-pride-flag.png",
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/transgender-pride-flag.png",
+        "assets/images/flags/bigender-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/gender-queer-pride-flag.png",
+      "fact": "The lavender stripe represents androgyny and queerness, the white stripe represents agender identity, and the green stripe represents non-binary people."
+    },
+    {
+      "question": "Which flag represents the Genderflux community?",
+      "answers": [
+        "assets/images/flags/genderflux-pride-flag.png",
+        "assets/images/flags/bisexual-pride-flag.png",
+        "assets/images/flags/greysexual-pride-flag.png",
+        "assets/images/flags/straight-ally-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/genderflux-pride-flag.png",
+      "fact": "Genderflux refers to a gender identity that fluctuates in intensity."
+    },
+    {
+      "question": "Which flag is known as the Gilbert Pride Flag?",
+      "answers": [
+        "assets/images/flags/Gilbert-pride-flag.png",
+        "assets/images/flags/new-progress-pride-flag.png",
+        "assets/images/flags/lesbian-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/Gilbert-pride-flag.png",
+      "fact": "The Gilbert Pride Flag, created by Gilbert Baker, is the original rainbow flag with eight colors, each representing a different aspect of life."
+    },
+    {
+      "question": "Which flag represents the Greysexual community?",
+      "answers": [
+        "assets/images/flags/greysexual-pride-flag.png",
+        "assets/images/flags/asexual-pride-flag.png",
+        "assets/images/flags/bigender-pride-flag.png",
+        "assets/images/flags/transgender-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/greysexual-pride-flag.png",
+      "fact": "Greysexuality represents a spectrum between asexuality and sexuality, where individuals experience limited sexual attraction."
+    },
+    {
+      "question": "Which flag represents the Heterosexual community?",
+      "answers": [
+        "assets/images/flags/heterosexual-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png",
+        "assets/images/flags/demiboy-pride-flag.png",
+        "assets/images/flags/drag-feather-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/heterosexual-pride-flag.png",
+      "fact": "The Heterosexual Pride Flag features black and white stripes to represent straight and cisgender individuals."
+    },
+    {
+      "question": "Which flag represents the Intersex community?",
+      "answers": [
+        "assets/images/flags/intersex-pride-flag.png",
+        "assets/images/flags/bisexual-pride-flag.png",
+        "assets/images/flags/greysexual-pride-flag.png",
+        "assets/images/flags/transgender-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/intersex-pride-flag.png",
+      "fact": "The intersex flag was designed by Morgan Carpenter in 2013 and features a yellow background with a purple circle, avoiding traditionally gendered colors."
+    },
+    {
+      "question": "Which flag represents Lesbians?",
+      "answers": [
+        "assets/images/flags/lesbian-pride-flag.png",
+        "assets/images/flags/nb.jpg",
+        "assets/images/flags/trans-woman.jpg",
+        "assets/images/flags/forth-flag.jpg"
+      ],
+      "correct": "assets/images/flags/lesbian-pride-flag.png",
+      "fact": "The original lesbian pride flag was created by graphic designer Sean Campbell in 1999. The colors represent different aspects of womanhood, community, and love."
+    },
+    {
+      "question": "Which flag represents the Maverique community?",
+      "answers": [
+        "assets/images/flags/maverique-pride-flag.png",
+        "assets/images/flags/genderflux-pride-flag.png",
+        "assets/images/flags/gay-men-pride-flag.png",
+        "assets/images/flags/drag-feather-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/maverique-pride-flag.png",
+      "fact": "Maverique is a non-binary gender identity characterized by autonomy and inner conviction regarding one's gender."
+    },
+    {
+      "question": "Which flag represents the New Progress Pride?",
+      "answers": [
+        "assets/images/flags/new-progress-pride-flag.png",
+        "assets/images/flags/lesbian-pride-flag.png",
+        "assets/images/flags/pansexual-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/new-progress-pride-flag.png",
+      "fact": "The Progress Pride Flag includes black and brown stripes to represent marginalized LGBTQ+ communities of color, along with pink, light blue, and white stripes to represent the transgender community."
+    },
+    {
+      "question": "Which flag represents the Pansexual community?",
+      "answers": [
+        "assets/images/flags/pansexual-pride-flag.png",
+        "assets/images/flags/gay-men-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png",
+        "assets/images/flags/new-progress-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/pansexual-pride-flag.png",
+      "fact": "The pink, yellow, and blue colors represent attraction to women, non-binary individuals, and men, respectively."
+    },
+    {
+      "question": "Which flag is known as the Philadelphia Pride Flag?",
+      "answers": [
+        "assets/images/flags/philadelphia-pride-flag.png",
+        "assets/images/flags/straight-ally-pride-flag.png",
+        "assets/images/flags/gender-queer-pride-flag.png",
+        "assets/images/flags/6-col-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/philadelphia-pride-flag.png",
+      "fact": "The Philadelphia Pride Flag includes black and brown stripes to highlight LGBTQ+ people of color, introduced in 2017."
+    },
+    {
+      "question": "Which flag represents the Straight Ally community?",
+      "answers": [
+        "assets/images/flags/straight-ally-pride-flag.png",
+        "assets/images/flags/greysexual-pride-flag.png",
+        "assets/images/flags/intersex-pride-flag.png",
+        "assets/images/flags/new-progress-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/straight-ally-pride-flag.png",
+      "fact": "The straight ally flag combines the black and white stripes of the heterosexual flag with the rainbow colors of the LGBTQ+ flag in an 'A' shape, symbolizing allyship."
+    },
+    {
+      "question": "Which flag represents the Transgender community?",
+      "answers": [
+        "assets/images/flags/transgender-pride-flag.png",
+        "assets/images/flags/abrosexual-pride-flag.png",
+        "assets/images/flags/demiboy-pride-flag.png",
+        "assets/images/flags/bigender-pride-flag.png"
+      ],
+      "correct": "assets/images/flags/transgender-pride-flag.png",
+      "fact": "The transgender pride flag was created by Monica Helms in 1999, and it represents the transgender community. The blue and pink stripes symbolize traditional male and female colors, while the white stripe represents non-binary and transitioning individuals."
+    }
+  ]
 }
