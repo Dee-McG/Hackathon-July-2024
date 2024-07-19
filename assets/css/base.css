@@ -6,6 +6,7 @@
 
   --box-shadow: 7px 10px 21px -6px rgba(0, 0, 0, 0.75);
   --card-border: 1px solid #505050;
+  --white-border: 1px solid #fff;
   --green-border: 3px solid #4cd964;
   --red-border: 3px solid #ff3b30;
 }
@@ -46,6 +47,10 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+header {
+  border-bottom: var(--white-border);
 }
 
 /* Generics */
