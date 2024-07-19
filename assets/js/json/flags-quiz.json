@@ -2,8 +2,8 @@
     "flags": [
       {
         "question": "Which flag is the original Pride Flag?",
-        "answers": ["assets/images/flags/6-col-pride-flag.webp", "assets/images/flags/heterosexual-pride-flag.png", "assets/images/flags/demiboy-pride-flag.png", "assets/images/flags/gay-men-pride-flag.png"],
-        "correct": "assets/images/flags/6-col-pride-flag.webp",
+        "answers": ["assets/images/flags/6-col-pride-flag.png", "assets/images/flags/heterosexual-pride-flag.png", "assets/images/flags/demiboy-pride-flag.png", "assets/images/flags/gay-men-pride-flag.png"],
+        "correct": "assets/images/flags/6-col-pride-flag.png",
         "fact": "The Stonewall Riots, which began on June 28, 1969, were a pivotal event in the LGBTQ+ rights movement, sparking the modern LGBTQ+ rights movement."
       }
     ]
