@@ -69,6 +69,8 @@ const handleNext = () => {
         item.style.border = "none";
     });
 
+    displayQuestion();
+
 }
 
 /* Add event listener to next button */
