@@ -14,16 +14,35 @@ const loadQuestionsFromJson = async () => {
 }
 
 /**
+ * Shuffles array in place.
+ * @param {Array} array 
+ * @returns {Array}
+ */
+const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+/**
  * Displays question and image flags
  */
 const displayQuestion = () => {
     const questionDiv = document.querySelector(".question");
-
     questionDiv.innerHTML = questions[index].question;
 
-    for (let i = 0; i < questions[index].answers.length; i++) {
-        options[i].src = questions[index].answers[i];
+    // Create a copy of the answers array and shuffle it
+    let shuffledAnswers = [...questions[index].answers];
+    shuffleArray(shuffledAnswers);
+
+    for (let i = 0; i < shuffledAnswers.length; i++) {
+        options[i].src = shuffledAnswers[i];
     }
+
+    // Save the correct answer after shuffling
+    questions[index].shuffledCorrect = shuffledAnswers.indexOf(questions[index].correct);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -42,8 +61,7 @@ const checkAnswer = (e) => {
     
     if (clicked.getAttribute("src") == ans) {
         clicked.style.border = "3px solid green";
-    }
-    else {
+    } else {
         clicked.style.border = "3px solid red";
     }
 
@@ -57,7 +75,6 @@ options.forEach((option) => {
     option.addEventListener('click', checkAnswer);
 });
 
-
 /**
  * Handles get next question, clears message container and removes disabled from buttons
  */
@@ -70,7 +87,6 @@ const handleNext = () => {
     });
 
     displayQuestion();
-
 }
 
 /* Add event listener to next button */
