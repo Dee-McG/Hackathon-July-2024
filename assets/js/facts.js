@@ -22,8 +22,8 @@ const createFactCards = (facts) => {
                 <img src="${facts[i].image}" alt="Image for ${facts[i].name}">
                 </div>
                 <div class="flip-card-back">
-                <p>${facts[i].name}</p>
-                <p>${facts[i].fact}</p>
+                <p class="fact-title">${facts[i].name}</p>
+                <span>${facts[i].fact}</span>
                 </div>
             </div>
         </div>`;
