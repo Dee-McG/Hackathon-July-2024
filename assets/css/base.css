@@ -129,3 +129,24 @@ header {
   color: var(--black);
   transform: rotateY(180deg);
 }
+
+
+/* Quiz page */
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.option {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+}
