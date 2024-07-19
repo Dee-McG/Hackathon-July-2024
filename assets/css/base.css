@@ -130,6 +130,7 @@ header {
   transform: rotateY(180deg);
 }
 
+<<<<<<< HEAD
 .githublinks {
   text-align: center; 
   :hover {
@@ -137,3 +138,96 @@ header {
   }
   
 }
+=======
+/* Home page */
+.welcome-box {
+  text-align: center;
+  line-height: 1.4;
+  box-shadow: var(--box-shadow); 
+  padding: 10px;
+}
+
+.welcome-note{
+  text-align: left;
+}
+
+/* Style all thre games box */
+.box{
+  box-shadow: var(--box-shadow);
+  width: 240px;
+  height: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the games box */
+.games{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+
+/* Style the first image in the first game box */
+.first-game img {
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Style the buttons in each game box to keep them in the bottom to look nicer */
+.box button{
+  margin: 5em 5px;
+  width: 40%;
+}
+
+/* Style a bit different than the other because this game box has a longer */
+.third-game button {
+  margin: 3.5em 5px;
+}
+
+/* To make our website responsive to the different screen sizes */
+@media (min-width: 768px){
+  .box{
+    width: 300px;
+    height: 450px;
+  }
+
+  .box button{
+    margin: 6.5em 5px;
+    width: 40%;
+  }
+
+.second-game button{
+  margin: 8em 5px;
+}
+
+.box img {
+  margin-bottom: 30px;
+}
+
+}
+
+
+/* Quiz page */
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.option {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+}
+
+>>>>>>> 2f018bbb29fd396c725ccd490be866ed5224d1cc
