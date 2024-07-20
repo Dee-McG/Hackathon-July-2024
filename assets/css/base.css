@@ -130,6 +130,15 @@ header {
   transform: rotateY(180deg);
 }
 
+<<<<<<< HEAD
+.githublinks {
+  text-align: center; 
+  :hover {
+    fill:#79D5EF;
+  }
+  
+}
+=======
 /* Home page */
 .welcome-box {
   text-align: center;
@@ -221,3 +230,4 @@ header {
   margin: 1rem;
 }
 
+>>>>>>> 2f018bbb29fd396c725ccd490be866ed5224d1cc
