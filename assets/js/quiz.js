@@ -2,6 +2,7 @@ const options = document.querySelectorAll(".option");
 const nextBtn = document.querySelector(".next");
 let questions = [];
 let index = 0;
+let score = 0; // Initialize score
 
 /**
  * Loads quiz questions from json
@@ -45,8 +46,16 @@ const displayQuestion = () => {
     questions[index].shuffledCorrect = shuffledAnswers.indexOf(questions[index].correct);
 }
 
+/**
+ * Updates the score display
+ */
+const updateScore = () => {
+    document.querySelector(".score").innerText = `Score: ${score}`;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     loadQuestionsFromJson();
+    updateScore(); // Display the initial score
 });
 
 /**
@@ -61,6 +70,8 @@ const checkAnswer = (e) => {
     
     if (clicked.getAttribute("src") == ans) {
         clicked.style.border = "3px solid green";
+        score++; // Increment score for correct answer
+        updateScore(); // Update the score display
     } else {
         clicked.style.border = "3px solid red";
     }
