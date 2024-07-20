@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Moul&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moul&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap");
 
 :root {
   --button-color: #aa93f3;
   --black: #000;
-
   --box-shadow: 7px 10px 21px -6px rgba(0, 0, 0, 0.75);
   --card-border: 1px solid #505050;
   --white-border: 1px solid #fff;
@@ -84,7 +83,7 @@ header {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: var(--border);
+  border: var(--card-border);
   box-shadow: var(--box-shadow);
   border-radius: 5px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -118,7 +117,7 @@ header {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: var(--border);
+  background-color: var(--card-border);
   border-radius: 5px;
   color: var(--black);
 }
@@ -134,16 +133,16 @@ header {
 .welcome-box {
   text-align: center;
   line-height: 1.4;
-  box-shadow: var(--box-shadow); 
+  box-shadow: var(--box-shadow);
   padding: 10px;
 }
 
-.welcome-note{
+.welcome-note {
   text-align: left;
 }
 
-/* Style all thre games box */
-.box{
+/* Style all three games box */
+.box {
   box-shadow: var(--box-shadow);
   width: 240px;
   height: 400px;
@@ -152,7 +151,7 @@ header {
 }
 
 /* Style the games box */
-.games{
+.games {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -161,14 +160,14 @@ header {
 
 /* Style the first image in the first game box */
 .first-game img {
-    width: 50%;
-    padding: 30px;
-    background-color: white;
-    border-radius: 5px;
+  width: 50%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 /* Style the buttons in each game box to keep them in the bottom to look nicer */
-.box button{
+.box button {
   margin: 5em 5px;
   width: 40%;
 }
@@ -179,27 +178,25 @@ header {
 }
 
 /* To make our website responsive to the different screen sizes */
-@media (min-width: 768px){
-  .box{
+@media (min-width: 768px) {
+  .box {
     width: 300px;
     height: 450px;
   }
 
-  .box button{
+  .box button {
     margin: 6.5em 5px;
     width: 40%;
   }
 
-.second-game button{
-  margin: 8em 5px;
-}
+  .second-game button {
+    margin: 8em 5px;
+  }
 
-.box img {
-  margin-bottom: 30px;
+  .box img {
+    margin-bottom: 30px;
+  }
 }
-
-}
-
 
 /* Quiz page */
 
@@ -210,20 +207,108 @@ header {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 10px;
-  max-width: 400px;
+  max-width: 600px;
+}
+
+.option-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .option {
   border-radius: 5px;
   cursor: pointer;
-  width: 150px;
+  width: 200px;
   height: 150px;
   margin: 1rem;
 }
 
-.githublinks {
-  text-align: center
-  
+/* Style for the correct flag */
+.correct-flag {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 520px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--white-border);
 }
 
+/* Style for the central icon */
+.icon-central {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+/* Style for the score display */
+.score {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+/* Style for the messages */
+.messages {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  max-width: 80%;
+  margin: 1rem auto;
+  display: none;
+}
+
+.messages.visible {
+  display: block;
+}
+
+/* Style for the endgame option buttons */
+.endgame-options {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.endgame-options button {
+  width: 150px;
+  height: 50px;
+  background-color: var(--button-color);
+  color: var(--black);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.githublinks {
+  text-align: center;
+}
+
+.githublinks a:hover {
+  fill: #79D5EF;
+}
+
+/* Style for the next button */
+.next {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
