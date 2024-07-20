@@ -1,8 +1,10 @@
 const options = document.querySelectorAll(".option");
 const nextBtn = document.querySelector(".next");
+const maxQuestions = 10;
 let questions = [];
 let index = 0;
-let score = 0; // Initialize score
+let score = 0;
+
 
 /**
  * Loads quiz questions from json
@@ -11,6 +13,7 @@ const loadQuestionsFromJson = async () => {
     const response = await fetch('assets/js/json/flags-quiz.json');
     const res = await response.json();
     questions = res["flags"];
+    shuffleArray(questions);
     displayQuestion();
 }
 
@@ -31,6 +34,11 @@ const shuffleArray = (array) => {
  * Displays question and image flags
  */
 const displayQuestion = () => {
+    if (index >= maxQuestions || index >= questions.length) {
+        endGame();
+        return;
+    }
+
     const questionDiv = document.querySelector(".question");
     questionDiv.innerHTML = questions[index].question;
 
@@ -55,7 +63,7 @@ const updateScore = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     loadQuestionsFromJson();
-    updateScore(); // Display the initial score
+    updateScore();
 });
 
 /**
@@ -67,11 +75,11 @@ const checkAnswer = (e) => {
     let ans = questions[index].correct;
 
     nextBtn.disabled = false;
-    
+
     if (clicked.getAttribute("src") == ans) {
         clicked.style.border = "3px solid green";
-        score++; // Increment score for correct answer
-        updateScore(); // Update the score display
+        score++;
+        updateScore();
     } else {
         clicked.style.border = "3px solid red";
     }
@@ -98,6 +106,39 @@ const handleNext = () => {
     });
 
     displayQuestion();
+}
+
+/**
+ * Ends the game and displays the final score
+ */
+const endGame = () => {
+    const questionDiv = document.querySelector(".question");
+    questionDiv.innerHTML = `Game Over! You scored ${score} out of ${maxQuestions}.`;
+
+    // Hide options and next button
+    document.querySelector(".options").style.display = 'none';
+    nextBtn.style.display = 'none';
+
+    // Add buttons for replaying the game or returning to the homepage
+    const endGameDiv = document.createElement('div');
+    endGameDiv.classList.add('endgame-options');
+
+    const playAgainBtn = document.createElement('button');
+    playAgainBtn.innerText = 'Play Again';
+    playAgainBtn.addEventListener('click', () => {
+        location.reload();
+    });
+
+    const homeLink = document.createElement('a');
+    homeLink.href = 'index.html';
+    homeLink.classList.add('button-link');
+    const homeBtn = document.createElement('button');
+    homeBtn.innerText = 'Return to Homepage';
+    homeLink.appendChild(homeBtn);
+
+    endGameDiv.appendChild(playAgainBtn);
+    endGameDiv.appendChild(homeLink);
+    questionDiv.appendChild(endGameDiv);
 }
 
 /* Add event listener to next button */
