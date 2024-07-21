@@ -49,3 +49,7 @@ In the credits section, we provide information about the sources used
 Fact Images were all taken from:
 - Google
 - Pixabay
+
+     
+
+flag images used from https://www.volvogroup.com/en/news-and-media/news/2021/jun/lgbtq-pride-flags-and-what-they-stand-for.html
