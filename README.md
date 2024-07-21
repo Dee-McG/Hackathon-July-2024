@@ -9,43 +9,35 @@
 
 ## Deployment
 
-#### _(please note, your team must also include the deployed links in the usual submission in Hackapp)_
-
-The project is deployed and can be accessed at [http://your-deployed-link.com](http://your-deployed-link.com).
-
-## Criteria
-
-In this section, we will briefly discuss how our team addressed the applicable criteria:
-
-- 🏳️‍🌈 The project demonstrates an impact on the LGBTQIA+ community
-- 🏳️‍🌈 The project is realistic and has real world value
-- 🏳️‍🌈 The project has excellent design and layout
-- 🏳️‍🌈 The project is presented to the judges in a professional manner
-- 🏳️‍🌈 The project demonstrates innovation and creativity
-
-# ABOUT SUBMISSION
+The project is deployed and can be accessed [here](https://dee-mcg.github.io/Hackathon-July-2024/).
 
 ## Intro
 
-One or two paragraphs providing an overview of our project
+The focus of our project was education, the main barrier to discrimination and bias is ignorance. By making easily accessible education to terms and flags of the LGBTQIA+ community we hope to break down some of thos barriers. If any users enjoy our site we have quick links to key LGBT focused charities that users can donate to if they wish.
 
 ## Goal
 
-The goal section provides a concise summary of the main objective or purpose of the project or software described in this README. It addresses the following aspects:
+### Problem
+Even with the huge amount of progress with LGBT issues being brought forward that has presented challenges to those not part of the community with common terms and the history of the movement. 
 
-- ➡️ Problem Statement
-- ➡️ Objective(s)
-- ➡️ Target Audience
-- ➡️ Benefits
+### Objective
+To have easily accessible and fun games that should help break down any barriers to being familiar with LGBT individuals
+
+### Target audience
+Those not already in the LGBT community
+
+### Benefits
+less ignorance and potential donations to key causes!
 
 ## Tech
 
-In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project.
+Our project was made with HTML, CSS and Javascript. The bootstrap framework was used for speed of development
 
 ## Credits
-
-In the credits section, we provide information about the sources used
 
 Fact Images were all taken from:
 - Google
 - Pixabay
+- Flag images were taken from [Volvo group](https://www.volvogroup.com/en/news-and-media/news/2021/jun/lgbtq-pride-flags-and-what-they-stand-for.html)
+- Favicon icon from [Shutterstock](https://www.shutterstock.com/image-vector/graduation-cap-education-icon-drawing-sign-1186543396)
+- Glass CSS from [css.glass](https://css.glass/)
