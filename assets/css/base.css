@@ -223,7 +223,10 @@ header {
 
 .githublinks {
   text-align: center
-  
+}
+
+  .svglinks:hover {
+    fill: #FF00FF;
 }
 
 
