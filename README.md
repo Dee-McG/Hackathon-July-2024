@@ -39,3 +39,4 @@ Fact Images were all taken from:
 - Google
 - Pixabay
 - Flag images were taken from [Volvo group](https://www.volvogroup.com/en/news-and-media/news/2021/jun/lgbtq-pride-flags-and-what-they-stand-for.html)
+- Favicon icon from [Shutterstock](https://www.shutterstock.com/image-vector/graduation-cap-education-icon-drawing-sign-1186543396)
