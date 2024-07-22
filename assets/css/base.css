@@ -36,6 +36,7 @@ h6 {
 }
 
 footer {
+  margin-top: 1rem;
   flex-shrink: 0;
 }
 
@@ -165,6 +166,10 @@ header {
   margin-top: 20px;
 }
 
+.box > img {
+  width: 200px;
+}
+
 /* Style the games box */
 .games {
   display: flex;
@@ -175,8 +180,6 @@ header {
 
 /* Style the first image in the first game box */
 .first-game img {
-  width: 50%;
-  padding: 30px;
   background-color: white;
   border-radius: 5px;
 }
@@ -336,6 +339,11 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+svg {
+  height: 40px;
+  padding: 5px;
 }
 
 @keyframes factfade {
