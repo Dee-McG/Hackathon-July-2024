@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * @param {event} e 
  */
 const checkAnswer = (e) => {
+
     // If an answer has already been selected, do nothing
     if (answerSelected) return;
 
