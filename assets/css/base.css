@@ -39,13 +39,20 @@ footer {
   flex-shrink: 0;
 }
 
-button {
+.btn {
   background-color: var(--button-color);
   color: var(--black);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+
+  transition: scale 0.5s;
+}
+
+.btn:hover, .btn:active, .btn:link, .btn:visited{
+  background-color: var(--button-color) !important;
+  scale: 1.1;
 }
 
 header {

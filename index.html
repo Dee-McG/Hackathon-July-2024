@@ -34,7 +34,7 @@
 </nav>
     </header>
 
-    <main>
+    <main class="container">
         <!--Put welcoming content in top of the page to give the user some information about the website-->
       <div class="welcome-box glass m-3">
        <h3>Welcome to PrideLearn!</h3>
@@ -51,29 +51,29 @@
         </p>
         </div>
         <!--Use section to put 3 games in a section and style them in css file with flex-display -->
-      <section class="games">
-        <div class="first-game box glass">
+      <div class="row games text-center">
+        <div class="col-lg-4 col-md-12 first-game box glass">
             <h3>Fun with Flags</h3>
-            <img src="assets/images/flags/philadelphia-pride-flag.png" alt="philadelphia flag">
+            <img src="assets/images/flags/philadelphia-pride-flag.png" class="img-fluid" alt="philadelphia flag">
             <p>Get presented with an LGBT representation and choose the correct option of 4 flags, try to get 10/10!</p>
-            <button type="button" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Select one of the four answers underneath the question by clicking on it.">Instruction</button>
-            <a href="quiz.html" class="button-link"><button>Play</button></a>
+            <button class="btn" type="button" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Select one of the four answers underneath the question by clicking on it.">Instruction</button>
+            <a href="quiz.html" class="button-link"><button class="btn">Play</button></a>
         </div>
-        <div class="second-game box glass">
+        <div class="col-lg-4 col-md-12 second-game box glass">
             <h3>Fact Flip</h3>
-            <img src="assets/images/facts/random-facts-flags.png" alt="6randome flags">
+            <img src="assets/icons/lgbt-book.png" class="img-fluid" alt="facts">
             <p>Learn about LGBT history and key events.</p>
-            <button type="button" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Hover over each flag to see the fact underneath!">Instruction</button>
-            <a href="facts.html" class="button-link"><button>Play</button></a>
+            <button class="btn" type="button" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Hover over each flag to see the fact underneath!">Instruction</button>
+            <a href="facts.html" class="button-link"><button class="btn">Play</button></a>
         </div>
-        <div class="third-game box glass">
+        <div class="col-lg-4 col-md-12 third-game box glass">
             <h3>Memory Game</h3>
-            <img src="assets/images/flags/memory-flags-game.png" alt="">
-            <p>Some information about this game </p>
-            <button>Instruction</button>
-            <a href="insert-memory-game.html-when-created" class="button-link"><button>Play</button></a>
+            <img src="assets/icons/lgbtbrain.png" class="img-fluid" alt="memory game">
+            <p>Coming Soon!</p>
+            <button class="btn">Instruction</button>
+            <a href="insert-memory-game.html-when-created" class="button-link"><button class="btn">Play</button></a>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer>
