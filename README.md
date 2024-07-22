@@ -79,6 +79,10 @@ Our project was made with HTML, CSS and Javascript. The bootstrap framework was 
 
 ### Known Bugs
 
+If you click too quickly in the matching game then the flags can get stuck turned over even if incorrect
+
+On smaller screen sizes the question answers show behind the correct answer which isnt user friendly
+
 ## Credits
 
 Fact Images were all taken from:
