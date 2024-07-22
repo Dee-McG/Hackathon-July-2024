@@ -54,6 +54,7 @@ footer {
 .btn:hover, .btn:active, .btn:link, .btn:visited{
   background-color: var(--button-color) !important;
   scale: 1.1;
+  text-decoration: none;
 }
 
 header {
@@ -349,5 +350,12 @@ svg {
 @keyframes factfade {
   from {display:block}
   to {display:none}
+}
+
+/* Memory Game */
+
+.game > img {
+  width: clamp(200px, 20vw ,20vw);
+  height: 300px;
 }
 

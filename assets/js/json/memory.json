@@ -1,0 +1,52 @@
+{
+    "cards": [
+        {
+            "flag": "Pride Flag",
+            "image": "assets/images/flags/6-col-pride-flag.png"
+          },
+          {
+            "flag": "Gay Men Pride Flag",
+            "image": "assets/images/flags/gay-men-pride-flag.png"
+          },
+          {
+            "flag": "Pride Flag",
+            "image": "assets/images/flags/6-col-pride-flag.png"
+          },
+          {
+            "flag": "Lesbian Pride Flag",
+            "image": "assets/images/flags/lesbian-pride-flag.png"
+          },
+          {
+            "flag": "Bi-sexual Pride Flag",
+            "image": "assets/images/flags/bisexual-pride-flag.png"
+          },
+          {
+            "flag": "Drag Pride Flag",
+            "image": "assets/images/flags/drag-feather-pride-flag.png"
+          },
+          {
+            "flag": "Asexual Pride Flag",
+            "image": "assets/images/flags/asexual-pride-flag.png"
+          },
+          {
+            "flag": "Bi-sexual Pride Flag",
+            "image": "assets/images/flags/bisexual-pride-flag.png"
+          },
+          {
+            "flag": "Gay Men Pride Flag",
+            "image": "assets/images/flags/gay-men-pride-flag.png"
+          },
+          {
+            "flag": "Asexual Pride Flag",
+            "image": "assets/images/flags/asexual-pride-flag.png"
+          },
+          {
+            "flag": "Lesbian Pride Flag",
+            "image": "assets/images/flags/lesbian-pride-flag.png"
+          },
+          {
+            "flag": "Drag Pride Flag",
+            "image": "assets/images/flags/drag-feather-pride-flag.png"
+          }
+    ]
+}
